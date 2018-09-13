@@ -1,0 +1,12 @@
+terraform
+ansible
+docker
+racher
+jenkins
+kubernetes
+team city
+nomad
+semaphore ci
+codeship
+jmeter
+openqa
