@@ -28,11 +28,13 @@ $(document).ready(function($) {
 			if (st < 150) {
 				if ( navbar.hasClass('scrolled') ) {
 					navbar.removeClass('scrolled sleep');
+					$('#logo').attr('src', 'assets/images/tigiboo.png');
 				}
 			}
 			if ( st > 350 ) {
 				if ( !navbar.hasClass('awake') ) {
 					navbar.addClass('awake');
+					$('#logo').attr('src', 'assets/images/tigiboo_blue.png');
 				}
 
 				if(sd.length > 0) {
